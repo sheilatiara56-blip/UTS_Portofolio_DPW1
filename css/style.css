@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+*{
+   font:"Garamond" ,serif;
+   line-height: 1.5;
+   color:rgb(57, 57, 92);
+   background-color: rgb(252, 250, 248);
+}
+#Beranda{
+    background-color: rgb(252, 250, 248);
+    padding:20px;
+    margin:20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+#Beranda h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#Tentang{
+       background-color: rgb(252, 250, 248);
+    padding:20px;
+    margin:20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+nav {
+    display:flex;
+    padding:10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3e3a57;
+}
+nav a{
+    background-color:#f5f1f1;
+    text-decoration: none;
+    color: #3e3a57;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin:1px;
+}
+#Proyek{
+    padding:20px;
+    margin:20px;
+}
+#Proyek h2{
+    margin-bottom:15px;
+}
+.project-list{
+    display:grid;
+}
+@media (max-width:768px) {
+
+}
